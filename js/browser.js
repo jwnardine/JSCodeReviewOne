@@ -1,4 +1,4 @@
-var pingPong = require('./github.js').pingPong;
+var pingPong = require('./../js/github.js').pingPong;
 
 $(document).ready(function(){
   $('#ping-pong').submit(function(event){
