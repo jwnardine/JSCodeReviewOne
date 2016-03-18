@@ -3,7 +3,9 @@
 <html>
 <head>
     <head>
+        <link rel="stylesheet" href="build/css/vendor.css">
         <script src="build/js/vendor.min.js"></script>
+        <script src="bower_components/moment/min/moment.min.js"></script>
         <script type="text/javascript" src="build/js/app.js"></script>
         <title>Ping Pong</title>
       </head>
@@ -12,9 +14,9 @@
   <body>
       <h3 id="time"></h3>
     <form id="github_form">
-      <label for="username">Enter a number:</label>
+      <label for="username">Enter a username:</label>
       <input id="username" type="number">
-      <button type="submit">Submit</button>
+      <button class="btn-danger" id="githubButton">Submit</button>
     </form>
     <ul id="results"></ul>
   </body>
