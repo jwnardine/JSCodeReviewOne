@@ -12,7 +12,13 @@ Please visit this website:
 
 https://github.com/jwnardine/JSCodeReviewOne
 
-Clone the repository onto your desktop using the command _git clone https://github.com/jwnardine/JSCodeReviewOne.git_ Make sure you have Node installed. Then, from the project directory, run the commands _npm install_ and _bower install_. Once they are installed, run _gulp build --production_ and then _gulp serve_ to have it show up in your browser.
+Clone the repository onto your desktop using the command _git clone https://github.com/jwnardine/JSCodeReviewOne.git_ Make sure you have Node installed. Then, from the project directory, run the commands _npm install_ and _bower install_.
+
+For this project, you'll need an API key from Github.com. If you do not already have one, signup/sign in to github.com, go to Settings from your profile link in the top right corner. On the left side of the Settings screen is a link to "Personal access tokens". Check none of the boxes and make a request for a new token. Then in the main project directory, create a file called .env, and place the following text inside:
+
+exports.githubKey = "INSERT-YOUR-API-KEY";
+
+This will give you access to the GitHub API. Now run the command _gulp build --production_ and then  _gulp serve_ to have the project run in your browser.
 
 ## Technologies Used
 
