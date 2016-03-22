@@ -4,7 +4,7 @@
 
 ## Description
 
-_This is Jon Nardine's first JS code review, which will test his ability to use Javascript, Node, Bower, and API keys. On this page, a user will be able to search for a github user by their username. Upon this action, the user will receive profile information on the searched user, such as their profile, number of followers, number of people the user follows, etc._
+_This is Jon Nardine's first JS code review, which will test his ability to use Javascript, Node, Bower, and API keys. On this page, a user will be able to search for a github user by their username. Upon this action, the user will receive profile information on the searched user, such as their profile picture, number of followers, and number of people the user follows. Also, the page will allow user to find all public repositories from the searched user with links to each one._
 
 ## Setup
 
