@@ -1,14 +1,14 @@
-$gray : #d3d3d3;
-$litegreen : #e6ffe6;
+$orange : #ff6600;
+$yellow : #ffcc00;
 
-.box {
-  background: $gray;
+.profileBox {
+  background: $orange;
   border: 3px solid black;
   padding: 40px 80px;
 }
 
-.resultbox {
-  background: $litegreen;
+.reposBox {
+  background: $yellow;
   border: 3px solid black;
   padding: 40px 80px;
 }
