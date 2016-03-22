@@ -7,10 +7,7 @@ exports.getRepos = function(username){
       for(var i = 0; i < response.length; i++)
       {
         $('#repoList').append('<li>Name: ' + response[i].name + '</li>');
-         $('#repoList').append('<li>Link: <a href="' + response[i].html_url + '">' + response[i].html_url + '</li><br>');
+        $('#repoList').append('<li>Link: <a href="' + response[i].html_url + '">' + response[i].html_url + '</li><br>');
       }
-  });
-  };
-
-//
-// <a href="' + response[i].repos_url + '">List of repositories</a><br>
+    });
+};
