@@ -20,8 +20,6 @@ exports.githubKey = "INSERT-YOUR-API-KEY";
 
 This will give you access to the GitHub API. Now run the command _gulp build --production_ and then  _gulp serve_ to have the project run in your browser.
 
-## Technologies Used
-
 ### Technologies Used
 * HTML
 * CSS
