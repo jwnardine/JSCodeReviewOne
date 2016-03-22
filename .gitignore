@@ -3,4 +3,4 @@ tmp/
 build/
 bower_components/
 .env
-js/ignored
+js/repos.js
