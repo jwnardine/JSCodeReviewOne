@@ -1,6 +1,6 @@
 var githubKey = require('./../.env').githubKey;
 
-exports.repos = function(username){
+exports.getUser = function(username){
   $.get('https://api.github.com/users/' + username + '?access_token=' + githubKey).then(function(response) {
     console.log(response);
     if (response.location === null) {
