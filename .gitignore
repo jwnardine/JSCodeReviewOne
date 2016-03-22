@@ -3,4 +3,3 @@ tmp/
 build/
 bower_components/
 .env
-js/repos.js
