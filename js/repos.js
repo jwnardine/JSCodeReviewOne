@@ -7,7 +7,7 @@ exports.getRepos = function(username){
       for(var i = 0; i < response.length; i++)
       {
         $('#repoList').append('<li>Name: ' + response[i].name + '</li>');
-         $('#repoList').append('<li>URL: <a href="' + response[i].html_url + '">' + response[i].full_name + '</li><br>');
+         $('#repoList').append('<li>Link: <a href="' + response[i].html_url + '">' + response[i].html_url + '</li><br>');
       }
   });
   };
